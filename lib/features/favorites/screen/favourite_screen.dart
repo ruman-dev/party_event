@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:party_event/core/global_widget/custom_appbar.dart';
-import 'package:party_event/core/routes/app_route.dart';
 import 'package:party_event/features/home/widgets/popular_event_card.dart';
 
 class FavouriteScreen extends StatelessWidget {

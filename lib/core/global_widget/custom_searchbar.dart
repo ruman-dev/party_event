@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:party_event/core/utils/app_colors.dart';
 import 'package:party_event/core/utils/asset_path.dart';
@@ -44,23 +43,18 @@ class CustomSearchBar extends StatelessWidget {
               fontWeight: FontWeight.w400,
               color: Colors.black,
             ),
-            // onChanged: (value) {
-            //   // searchQueryNotifier.value = value;
-            //   validateLicenseNumber(context, licenseController);
-            // },
+
             decoration: InputDecoration(
               enabled: isEnabled,
-              prefixIcon: Container(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Image.asset(
-                      AssetPath.searchIcon,
-                      width: width ?? 18.w,
-                      color: AppColors.secondaryColor,
-                    ),
-                  ],
-                ),
+              prefixIcon: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    AssetPath.searchIcon,
+                    width: width ?? 18.w,
+                    color: AppColors.secondaryColor,
+                  ),
+                ],
               ),
               hintText: 'Find amazing events',
               hintStyle: GoogleFonts.inter(

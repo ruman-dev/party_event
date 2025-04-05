@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:party_event/core/global_widget/custom_appbar.dart';
 
 import '../../../../core/global_widget/custom_btn.dart';
 import '../../../../core/global_widget/custom_event_details.dart';

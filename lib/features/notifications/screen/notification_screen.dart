@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:party_event/core/routes/app_route.dart';
 import 'package:party_event/core/utils/app_colors.dart';
 import 'package:party_event/core/utils/asset_path.dart';
 import '../../../core/global_widget/custom_appbar.dart';

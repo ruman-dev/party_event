@@ -51,8 +51,9 @@ class FormValidation {
 
   static String? validatePasswordMatch(
       String? value, TextEditingController newPssWordController) {
-    if (value != newPssWordController.value.text)
+    if (value != newPssWordController.value.text) {
       return "Passwords do not match";
+    }
     return null;
   }
 

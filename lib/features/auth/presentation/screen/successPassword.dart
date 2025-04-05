@@ -6,8 +6,8 @@ import 'package:party_event/core/global_widget/custom_btn.dart';
 import 'package:party_event/core/routes/app_route.dart';
 import 'package:party_event/core/utils/asset_path.dart';
 
-class Successpassword extends StatelessWidget {
-  const Successpassword({super.key});
+class SuccessPassword extends StatelessWidget {
+  const SuccessPassword({super.key});
 
   @override
   Widget build(BuildContext context) {

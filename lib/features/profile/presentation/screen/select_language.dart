@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:party_event/core/global_widget/custom_appbar.dart';
 import 'package:party_event/core/global_widget/custom_btn.dart';
 import 'package:party_event/core/global_widget/custom_searchbar.dart';
 import 'package:party_event/features/profile/presentation/widget/select_option.dart';
-import '../../../../core/routes/app_route.dart';
 import '../../../../core/utils/asset_path.dart';
 
 class SelectLanguage extends StatelessWidget {

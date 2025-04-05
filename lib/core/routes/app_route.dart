@@ -84,7 +84,7 @@ class AppRoute {
     GetPage(name: allFeaturedScreen, page: () => AllFeaturedScreen()),
     GetPage(name: otpScreen, page: () => OtpScreen()),
     GetPage(name: createNewPass, page: () => CreateNewPass()),
-    GetPage(name: successPass, page: () => Successpassword()),
+    GetPage(name: successPass, page: () => SuccessPassword()),
     GetPage(name: orSignUpScreen, page: () => Organizer()),
     GetPage(name: singUpScreen, page: () => SingupScreen()),
     GetPage(name: singUpVerify, page: () => SingupVerify()),

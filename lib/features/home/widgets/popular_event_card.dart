@@ -56,7 +56,7 @@ class PopularEventCard extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12.r),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.1),
+                      color: Colors.grey.withValues(alpha: 0.1),
                       spreadRadius: 1,
                       offset: Offset(0, 3),
                     ),
@@ -68,7 +68,7 @@ class PopularEventCard extends StatelessWidget {
                 ),
               ),
               SizedBox(width: 10.w),
-              Container(
+              SizedBox(
                 child: Padding(
                   padding: EdgeInsets.symmetric(vertical: 15),
                   child: Column(

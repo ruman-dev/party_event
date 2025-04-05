@@ -58,7 +58,7 @@ class Forget extends StatelessWidget {
                   () => CustomButton1(
                     containerColor: dialogController.selectedIndex.value == 0
                         ? Color(0xFFD2F3C3)
-                        : Color(0xFF71809633).withOpacity(0.2),
+                        : Color(0xFF71809633).withValues(alpha: 0.2),
                     icon: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Icon(
@@ -94,7 +94,7 @@ class Forget extends StatelessWidget {
                   () => CustomButton1(
                     containerColor: dialogController.selectedIndex.value == 1
                         ? Color(0xFFD2F3C3)
-                        : Color(0xFF71809633).withOpacity(0.2),
+                        : Color(0xFF71809633).withValues(alpha: 0.2),
                     icon: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Icon(

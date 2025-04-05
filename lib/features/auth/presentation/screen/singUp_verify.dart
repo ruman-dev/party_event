@@ -175,7 +175,7 @@ class SingupVerify extends StatelessWidget {
                           TextSpan(
                             text: secondsRemaining.value == 0.0
                                 ? ""
-                                : "${secondsRemaining.value.toStringAsFixed(2)}",
+                                : secondsRemaining.value.toStringAsFixed(2),
                             style: TextStyle(
                                 fontWeight: FontWeight.w600,
                                 fontSize: 14.sp,

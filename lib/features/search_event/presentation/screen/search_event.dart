@@ -1,4 +1,3 @@
-import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -21,21 +20,6 @@ class SearchEvent extends StatelessWidget {
     'Tomorrow',
     'This Week',
   ];
-
-  List<BarChartGroupData> _generateBarData() {
-    return List.generate(6, (index) {
-      return BarChartGroupData(
-        x: index,
-        barRods: [
-          BarChartRodData(
-            toY: (index + 3) * 10.toDouble(), // Example values
-            color: AppColors.primaryColor,
-            width: 12,
-          ),
-        ],
-      );
-    });
-  }
 
   RxInt selectedTimeItem = 0.obs;
 
@@ -117,7 +101,6 @@ class SearchEvent extends StatelessWidget {
                                                 onTap: () {
                                                   selectedTimeItem.value =
                                                       time.indexOf(e) + 1;
-                                                  print(selectedTimeItem);
 
                                                   if (selectedTimeItem.value ==
                                                       0) {

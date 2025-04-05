@@ -128,7 +128,7 @@ class OnboardingView extends StatelessWidget {
                             },
                           ),
                           SizedBox(height: 10.h),
-                          Container(
+                          SizedBox(
                             width: double.infinity,
                             child: ElevatedButton(
                               onPressed: () {
@@ -193,8 +193,6 @@ class OnboardingView extends StatelessWidget {
                           CustomBtn(
                             text: "Next",
                             onPressed: () {
-                              print(
-                                  "Current Index: ${onboardingController.currentIndex.value}");
                               onboardingController.nextPage();
                             },
                           ),

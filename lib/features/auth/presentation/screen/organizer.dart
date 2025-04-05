@@ -6,8 +6,6 @@ import 'package:party_event/core/global_widget/custom_btn.dart';
 import 'package:party_event/core/global_widget/option_container.dart';
 import 'package:party_event/core/routes/app_route.dart';
 import 'package:party_event/core/utils/asset_path.dart';
-import 'package:party_event/features/auth/presentation/screen/singup_screen.dart';
-import 'package:party_event/features/nav_bar/screen/bottom_nav_bar.dart';
 
 import '../../controller/dialog_controller/dialog_controller.dart';
 

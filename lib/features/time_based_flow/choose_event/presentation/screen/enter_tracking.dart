@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:party_event/core/global_widget/custom_botton1.dart';
 import 'package:party_event/core/global_widget/custom_btn.dart';
 import 'package:party_event/core/global_widget/custom_text_inter.dart';
 import 'package:party_event/core/utils/app_colors.dart';
 import 'package:party_event/core/utils/asset_path.dart';
-import 'package:party_event/features/search_event/presentation/widgets/custom_text.dart';
 import 'package:party_event/features/time_based_flow/choose_event/controller/tracking_controller.dart';
 
 class EnterTracking extends StatelessWidget {

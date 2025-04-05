@@ -126,7 +126,8 @@ class CustomEventCard extends StatelessWidget {
                               clipBehavior: Clip.none,
                               children: [
                                 CircleAvatar(
-                                  backgroundColor: Colors.grey.withOpacity(0.1),
+                                  backgroundColor:
+                                      Colors.grey.withValues(alpha: 0.1),
                                   backgroundImage:
                                       AssetImage(AssetPath.personOne),
                                   radius: 14.r,
@@ -276,7 +277,7 @@ Widget buildAvatar(String image, double left) {
   return Positioned(
     left: left,
     child: CircleAvatar(
-      backgroundColor: Colors.grey.withOpacity(0.1),
+      backgroundColor: Colors.grey.withValues(alpha: 0.1),
       backgroundImage: AssetImage(image),
       radius: 14.r,
     ),

@@ -64,7 +64,6 @@ class FilterItems extends StatelessWidget {
                     } else {
                       selectedItems.add(index);
                     }
-                    print(selectedItems);
                   },
                   child: Container(
                     margin: EdgeInsets.only(right: 10.w),
